@@ -25,6 +25,7 @@ Here are two approaches of doing so
 ### Demonstration:
 
 Prompt: Go to google.com, search for 'agentic ai' and click on the first result.  
+(Have a look at it in ./demo_videos/ if it is not playing below)
 ![Selenium Demo](demo_videos/using_selenium.gif)
 
 Do note that this is just a prototype to demonstrate proof of concept so there are many optimizations to be made. I have presented this solution to give an idea of how I can build it from scratch.
@@ -35,9 +36,10 @@ A much more robust way would be to use browser-use.
 
 It is an open source library to connect AI agents with the browser. (https://github.com/browser-use/browser-use)
 
-### Demonstration:
+### Demonstration Video:
 
 Prompt: Go to amazon.in, search for 'laptops', sort by best sellers and add the first item to the cart.  
+(Have a look at it in ./demo_videos/ if it is not playing below)
 ![Browser-Use Demo](demo_videos/using_browser_use.gif)
 
 - Faster and more reliable than the Selenium prototype.
@@ -48,6 +50,7 @@ Another way to access browser-use is using web-ui in case it is to be used by no
 
 ### Demonstration:
 
+(Have a look at it in ./demo_videos/ if it is not playing below)
 ![Browser-Use Web-UI Demo](demo_videos/using_browser_use_web-ui.gif)
 
 P.S. Didn't set it up on VM just yet. My main goal was to just show proof of concept and working.
